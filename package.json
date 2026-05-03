@@ -2,11 +2,12 @@
 	"name": "chat-app-backend",
   "version": "1.0.0",
   "description": "Backend for real-time chat application",
-  "main": "index.js",
+  "main": "server.js",
 	"scripts": {
-		"server": "nodemon backend/server.js",
+		
 		"start": "node backend/server.js",
-		"build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
+		"dev": "nodemon server.js"
+		
 	},
 	"type": "module",
 	"keywords": [],
