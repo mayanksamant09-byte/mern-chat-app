@@ -9,7 +9,7 @@ dotenv.config();
 const app = express();
 
 // Your console log to test if it's working
-console.log("MONGO_URI: ", process.env.MONGO_URI);
+// console.log("MONGO_URI: ", process.env.MONGO_URI);
 
 // The rest of your imports...
 import authRoutes from "./routes/auth.routes.js";
