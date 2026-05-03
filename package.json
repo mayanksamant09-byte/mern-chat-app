@@ -1,8 +1,8 @@
 {
-	"name": "chat-app-yt",
-	"version": "1.0.0",
-	"description": "",
-	"main": "server.js",
+	"name": "chat-app-backend",
+  "version": "1.0.0",
+  "description": "Backend for real-time chat application",
+  "main": "index.js",
 	"scripts": {
 		"server": "nodemon backend/server.js",
 		"start": "node backend/server.js",
