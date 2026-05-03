@@ -2,7 +2,7 @@
 	"name": "chat-app-backend",
   "version": "1.0.0",
   "description": "Backend for real-time chat application",
-  "main": "server.js",
+  "main": "backend/server.js",
 	"scripts": {
 		
 		"start": "node backend/server.js",
