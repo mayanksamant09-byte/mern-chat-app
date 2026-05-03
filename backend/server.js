@@ -1,5 +1,9 @@
+import path from "path";
 import dotenv from "dotenv";
-dotenv.config(); // By default, this looks for .env in the current working directoryimport path from "path";
+
+// This tells the program: "Look in the folder I'm currently in for the .env file"
+dotenv.config({ path: path.resolve(process.cwd(), '.env') });
+import path from "path";
 import express from "express";
 import dotenv from "dotenv";
 import cookieParser from "cookie-parser";
