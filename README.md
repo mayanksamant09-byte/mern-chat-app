@@ -1,19 +1,23 @@
 # MERN Chat App by Mayank Samant
 
-A full-stack real-time chat application built with MongoDB, Express.js, React, and Node.js.
-
-## Credits
-This project is based on [Burak Orkmez's MERN Chat App](https://github.com/burakorkmez/mern-chat-app) under MIT License.
-Customized and enhanced by Mayank Samant with new features and UI improvements.
+A full-stack real-time chat application built from scratch using MongoDB, Express.js, React, and Node.js.
 
 ## Features
 - Real-time messaging using Socket.io
-- JWT Authentication 
-- Online user status
-- Zustand for state management
-- TailwindCSS + DaisyUI for styling
-- Image sharing support
+- Secure JWT Authentication
+- Online/Offline user status indicator
+- Global state management with Zustand
+- Modern UI with TailwindCSS + DaisyUI
+- Image and file sharing support
+- Message search functionality
+- Dark/Light theme toggle
 
 ## Tech Stack
-**Frontend:** React, TailwindCSS, DaisyUI, Zustand, Socket.io-client  
-**Backend:** Node.js, Express, MongoDB, Socket.io, JWT
+**Frontend:** React.js, TailwindCSS, DaisyUI, Zustand, Socket.io-client  
+**Backend:** Node.js, Express.js, MongoDB, Mongoose, Socket.io, JWT
+
+## Installation
+1. Clone the repository
+2. Install dependencies in frontend and backend
+3. Add environment variables
+4. Run the development server
