@@ -22,7 +22,3 @@ A real-time chat application developed using the MERN stack for my college proje
 4. Start the backend server using `npm run dev` 
 5. Start the frontend application using `npm run dev`
 
-## Project Details
-**Developer:** Mayank Samant  
-**Course:** BCA
-**Year:** 2026
